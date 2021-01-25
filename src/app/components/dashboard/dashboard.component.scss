@@ -1,0 +1,62 @@
+.dashboardContent{
+    .filter-panel{
+        align-items: flex-start;
+        float: left;
+        background: white;
+        margin-top: 10px;
+    }
+
+    .buttonLaunchYear {
+        box-shadow: none;
+        background: #9bde9b;
+        border: none;
+        margin: 10px;
+        border-radius: 10px;        
+    }
+    .buttonLaunchYear:hover,.active {
+        background: #5bc55b;
+    }
+    .launchYearInput {
+        width: 100%;
+        border: none;
+        border-bottom: solid 2px;
+        text-align: center;
+    }
+    .launchYearInput:focus {
+        border: none;
+        outline: none;
+        border-bottom: solid 2px;
+    }
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+    .space-text{
+        font-size: 18px;
+    }
+    .card {
+        padding-top: 10px;
+        display: inline-block;
+        height: 360px;
+        max-height: 360px;
+        margin-top: 10px;
+        float: left;
+        text-align: center;
+        overflow: auto;
+        img {
+            width: 100%;
+            background: #eaeaea;
+            padding-bottom: 10px;
+            padding-top: 5px;
+        }
+        .container {
+            padding-left: 0;
+            font-size: 13px;
+            text-align: left;
+        }
+    }
+    h4 {
+        font-size: 1rem;
+    }
+}
